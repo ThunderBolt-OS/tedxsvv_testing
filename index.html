@@ -8,12 +8,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    <div class="container">
-
-    </div>
+    <img id="container" src="Aman_Malik.jpg">
 </body>
+<!--<script>
+    var images = ['Aman_Malik.jpg', 'ANN_VARGHESE.png', 'Anusha_Dwivedi.jpg', 'Avyay_Nair.jpg', 'Girik_Bhambra.jpeg', 'hetaldoshi.jpg', 'Jagjit_Bhumra.jpg', 'JAYANT.png', 'Moksh_Panditpautra.jpg', 'Muskan_Mishra.jpg', 'Neharika_Chowdhury.jpeg', 'NIRJRA_GANDHI.png', 'radhaiyer.jpg', 'RASHEE_ANAND.jpg', 'Ria_Bajari.jpeg', 'Ridhima_Sharma.jpeg', 'ROHAN_SHANKPAL.jpg', 'Rudra_Jog_e.jpg', 'Sakshi_Hiremath.jpeg', 'SAMBHRAM_JAIN.jpg', 'Selista_Malikkal.jpg', 'Shravani_Patil.jpg', 'SHREYA_LOLGE.jpeg', 'SHUBH_RADIA.png', 'Siddharth_Sharma.jpeg', 'Soham_Bhoir.jpg', 'tedx1_e.png', 'Vrunda_Vadodaria.jpg'];
+    $('img').css({'content': 'url(' + images[Math.floor( (Math.random() * images.length) + 0)] + ')'});
+</script>-->
 <script>
     var images = ['Aman_Malik.jpg', 'ANN_VARGHESE.png', 'Anusha_Dwivedi.jpg', 'Avyay_Nair.jpg', 'Girik_Bhambra.jpeg', 'hetaldoshi.jpg', 'Jagjit_Bhumra.jpg', 'JAYANT.png', 'Moksh_Panditpautra.jpg', 'Muskan_Mishra.jpg', 'Neharika_Chowdhury.jpeg', 'NIRJRA_GANDHI.png', 'radhaiyer.jpg', 'RASHEE_ANAND.jpg', 'Ria_Bajari.jpeg', 'Ridhima_Sharma.jpeg', 'ROHAN_SHANKPAL.jpg', 'Rudra_Jog_e.jpg', 'Sakshi_Hiremath.jpeg', 'SAMBHRAM_JAIN.jpg', 'Selista_Malikkal.jpg', 'Shravani_Patil.jpg', 'SHREYA_LOLGE.jpeg', 'SHUBH_RADIA.png', 'Siddharth_Sharma.jpeg', 'Soham_Bhoir.jpg', 'tedx1_e.png', 'Vrunda_Vadodaria.jpg'];
-    $('.container').css({'background-image': 'url(' + images[Math.floor( (Math.random() * images.length) + 0)] + ')'});
+    $('#container').attr('src', images[Math.floor( (Math.random() * images.length) + 0)] );
 </script>
 </html>
